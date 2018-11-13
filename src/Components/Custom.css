@@ -1,0 +1,180 @@
+
+body{
+    background-color: #b61924;
+}
+
+
+div.transition-group {
+    position: relative;
+}
+
+.fade-enter {
+
+    opacity: 0.01;
+  }
+
+  .fade-enter.fade-enter-active {
+
+
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+  }
+
+  .fade-exit {
+    opacity: 1;
+  }
+
+  .fade-exit.fade-exit-active {
+
+    opacity: 0.01;
+    transition: opacity 500ms ease-in-out;
+  }
+
+
+
+
+
+h1.homehead{
+    font-family: 'Frijole', cursive;
+    font-size: 40px;
+    color: floralwhite;
+    margin-top: 5em;
+}
+
+.ieeedesc{
+    font-family: 'Monda', sans-serif;
+    color: floralwhite;
+    font-size: 20px;
+    margin-inline-end: 20px;
+    margin-inline-start: 20px;
+}
+
+.homesub{
+
+    color:floralwhite;
+    font-family: 'Signika', sans-serif;
+    margin-top: 50px;
+    margin-inline-end: 20px;
+    margin-inline-start: 20px;
+    font-size: 25px;
+
+}
+
+
+div.imghome{
+    background-image: url('./images/fit.jpeg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 40em;
+}
+
+div.pushkardesc{
+   
+    color: floralwhite;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+}
+
+.ieeeanchorlink{
+
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+a:hover{
+    text-decoration: none;
+    color: crimson;
+
+}
+
+h1.topicmainhead{
+    color: black;
+    font-family: 'Faster One', cursive;
+    font-size: 50px;
+    
+}
+
+p.topicdesc{
+    color:floralwhite;
+    font-family: 'Signika', sans-serif;
+    margin-top: 50px;
+    margin-inline-end: 20px;
+    margin-inline-start: 20px;
+    font-size: 25px;
+
+}
+
+h3.topicsubhead{
+    color: black;
+    font-family: 'Faster One', cursive;
+    font-size: 30px;
+    margin-top: 1em;
+}
+
+p.subheaddesc{
+    color:floralwhite;
+    font-size: 20px;
+    margin-top: 1em;
+    margin-inline-start: 20px;
+    font-family: -apple-system, 'Segoe UI', ;
+}
+
+@media all and (max-width: 600px)
+    {
+        h1.homehead{
+            
+            font-size: 30px;
+            
+            margin-top: 5em;
+
+        }
+        h1.topicmainhead{
+            
+            font-size: 30px;
+            
+        }
+        p.subheaddesc{
+           
+            font-size: 15px;
+           
+        }
+
+        p.topicdesc{
+           
+            margin-top: 50px;
+            margin-inline-end: 20px;
+            margin-inline-start: 20px;
+            font-size: 20px;
+        
+        }
+        .ieeedesc{
+            
+            margin-inline-end: 0;
+            margin-inline-start: 0;
+        }
+
+        .col-xs-6{
+            display: unset;
+            width: 100%
+        }
+        
+    }
+
+    @media all and (max-width: 350px)
+    {
+        h1.homehead{
+            
+            font-size: 20px;
+            
+            margin-top: 5em;
+        }
+
+        div.imghome{
+            
+            height: 30em;
+        }
+    }
+
